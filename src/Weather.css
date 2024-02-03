@@ -1,0 +1,86 @@
+.weather-app {
+  padding-top: 30px;
+}
+
+.weather-info {
+  list-style-type: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-date {
+  font-size: 16px;
+}
+
+.forecast-temp {
+  font-size: 12px;
+}
+
+.min-temp {
+  opacity: 0.7;
+}
+
+#search-btn {
+  background-color: #f3eacc;
+  border-color: aliceblue;
+  border-radius: 3px;
+  padding: 10px auto;
+}
+
+#search-btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: #f2b23a;
+  cursor: pointer;
+  padding: 6px auto;
+}
+
+.degree {
+  font-size: 65px;
+  margin: 0;
+  text-decoration: none;
+  color: rgb(41, 40, 40);
+}
+
+.tempUnits {
+  font-weight: 25px;
+  padding-left: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  top: -35px;
+}
+
+.icon {
+  width: 100px;
+}
+
+.small {
+  padding-top: 30px;
+}
+
+#right-column {
+  text-align: right;
+}
+
+#celsius {
+  color: black;
+}
+
+#celsius:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#fahrenheit {
+  color: rgb(113, 112, 112);
+}
+
+#fahrenheit:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
