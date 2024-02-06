@@ -1,6 +1,5 @@
 import "./Weather.css";
 import React from "react";
-import axios from "axios";
 
 import windy from "./windy.png";
 
@@ -17,19 +16,16 @@ export default function Weather() {
         <div className="weather-app">
           <div className="row">
             <div className="col-6">
-              <a className="degree">30</a>
+              <span className="degree">30</span>
               <span className="tempUnits">
-                <span href="#" className="active">
-                  °C{" "}
-                </span>{" "}
-                |<span href="#">°F</span>
+                <span className="active">°C </span> |<span href="#">°F</span>
               </span>
               <h3>Cape Town</h3>
               <p>Wednesday, 18:43</p>
             </div>
             <div className="col-6">
-              <img className="icon" src={windy} />
-              <h2></h2>
+              <img className="icon" src={windy} alt="weather" />
+              <h2>City</h2>
               <ul className="weather-info">
                 <li>
                   Humidity: <span>69</span>%
@@ -40,9 +36,19 @@ export default function Weather() {
               </ul>
             </div>
           </div>
+          <div className="weather-forecast"></div>
         </div>
-        <div className="weather-forecast"></div>
       </div>
+      <small>
+        <a
+          href="https://github.com/bkhunou/vanilla-weather-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open-source code
+        </a>
+        by Boipelo Khunou
+      </small>
     </div>
   );
 }
