@@ -24,7 +24,11 @@ export default function WeatherInfo(props) {
                 src={props.data.iconUrl}
                 alt={props.data.icon}
               />
-              <span className="text-capitalize">{props.data.description}</span>
+              <li>
+                <span className="text-capitalize">
+                  {props.data.description}
+                </span>
+              </li>
               <li>
                 Humidity: <span>{props.data.humidity}</span>%
               </li>
