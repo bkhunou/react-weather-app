@@ -13,7 +13,9 @@ export default function WeatherInfo(props) {
             </span>
 
             <h3>{props.data.city}</h3>
-            <FormattedDate date={props.data.date} />
+            <div>
+              <FormattedDate date={props.data.date} />
+            </div>
           </div>
           <div className="col-6">
             <ul className="weather-info">
