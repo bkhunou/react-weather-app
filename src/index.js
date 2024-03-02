@@ -18,7 +18,14 @@ root.render(
         >
           Open-source code
         </a>
-        {""} by Boipelo Khunou
+        {""} coded by{" "}
+        <a
+          href="https://www.shecodes.io/graduates/85348-boipelo-khunou"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Boipelo Khunou
+        </a>
       </span>
     </div>
   </React.StrictMode>
