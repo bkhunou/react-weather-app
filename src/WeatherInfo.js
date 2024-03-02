@@ -9,7 +9,7 @@ export default function WeatherInfo(props) {
           <div className="col-6">
             <span className="degree">{Math.round(props.data.temperature)}</span>
             <span className="tempUnits">
-              <span className="active">°C </span> |<span href="#">°F</span>
+              <span className="active">°C </span>
             </span>
 
             <h3>{props.data.city}</h3>

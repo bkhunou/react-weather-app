@@ -9,16 +9,18 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Weather defaultCity="Cape Town" />
-    <footer>
-      <a
-        href="https://github.com/bkhunou/vanilla-weather-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Open-source code
-      </a>
-      {""} by Boipelo Khunou
-    </footer>
+    <div>
+      <footer>
+        <a
+          href="https://github.com/bkhunou/vanilla-weather-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open-source code
+        </a>
+        {""} by Boipelo Khunou
+      </footer>
+    </div>
   </React.StrictMode>
 );
 
